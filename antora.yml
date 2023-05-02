@@ -1,0 +1,10 @@
+name: testing-docs
+title: Testin docs
+version: 0.0.1
+start_page: cypress/learn-path-by-filip-hric.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+nav:
+- modules/ROOT/nav.adoc
