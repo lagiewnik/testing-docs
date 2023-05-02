@@ -1,5 +1,5 @@
 name: testing-docs
-title: Testing docs
+title: Testing documentation
 version: 0.0.1
 start_page: cypress/learn-path-by-filip-hric.adoc
 asciidoc:

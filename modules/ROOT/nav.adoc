@@ -1,2 +1,2 @@
 * CYPRESS
-** xref:cypress/learn-path-by-filip-hric.adoc[fh]
+** xref:./pages/cypress/learn-path-by-filip-hric.adoc[fh]
