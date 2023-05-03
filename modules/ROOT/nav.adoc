@@ -1,0 +1,1 @@
+* cypress-edu-path-by-filip.adoc[]
