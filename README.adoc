@@ -1,12 +1,13 @@
 = Information
+:hide-uri-scheme:
 
 == Format & structure
 
-Documentation built on adoc format files: https://docs.asciidoctor.org/asciidoc/latest:"Asciidoctor Docs"
+Documentation built on adoc format files: https://docs.asciidoctor.org/asciidoc/latest
 
 == Generate html output
 
-Generating documentation to html using the Antora tool: https://docs.antora.org/antora/latest:"Antora Docs"
+Generating documentation to html using the Antora tool: https://docs.antora.org/antora/latest
 Output files are located in the ./docs directory.
 
 = Public on github pages
