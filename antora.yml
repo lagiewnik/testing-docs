@@ -1,6 +1,6 @@
 name: testing-docs
 title: Testing Docs
-version: 0.0.1
+version: 0.0.2
 start_page: cypress-edu-path-by-filip.adoc
 asciidoc:
   attributes:
