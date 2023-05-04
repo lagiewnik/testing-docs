@@ -1,7 +1,7 @@
 name: testing-docs
 title: Testing Docs
 version: 0.0.2
-start_page: automation-edu-path-by-filip.adoc
+start_page: now-learned.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@

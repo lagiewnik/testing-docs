@@ -1,3 +1,5 @@
 * AUTOMATION TESTING
 ** :xref:automation-edu-path-by-filip.adoc[]
 
+* Now Learned
+** :xref:now-learned.adoc[]
