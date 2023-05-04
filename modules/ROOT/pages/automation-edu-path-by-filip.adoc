@@ -5,24 +5,29 @@ https://youtu.be/9D73iVcwVC8
 
 video::9D73iVcwVC8[youtube,width=640,height=480,start=1030]
 
-=== Codeacademy [FREE]
+== Codeacademy [FREE]
 
 https://www.codecademy.com/
 
-=== Team tree house [PAID]
+== Team tree house [PAID]
 
 https://teamtreehouse.com/
 
-=== Free code camp
+==  Free code camp
 
 https://www.freecodecamp.org/
 
-=== JAVASCRIPT
+== JAVASCRIPT
 
 https://jsfiddle.net/
 https://codesandbox.io/
 
-=== CYPRESS
+== CYPRESS
 https://www.cypress.io/
 
+== POSTMAN
+
+== cloned trello app
+trello-based application serving as a demo for API and E2E tests
+https://github.com/lagiewnik/trelloapp
 
