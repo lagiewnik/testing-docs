@@ -1,2 +1,3 @@
-* CYPRESS
-** :xref:cypress-edu-path-by-filip.adoc[]
+* AUTOMATION TESTING
+** :xref:automation-edu-path-by-filip.adoc[]
+
