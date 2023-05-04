@@ -7,7 +7,7 @@
 |===
 | Subject | Source
 
-| cypress | video::9D73iVcwVC8[youtube]
+| cypress | image::{https://www.youtube.com/watch?v=9D73iVcwVC8&t=2s}[target=video,width=200,autoplay]
 
 |===
 
