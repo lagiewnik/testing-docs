@@ -19,3 +19,10 @@ https://www.freecodecamp.org/
 
 === JAVASCRIPT
 
+https://jsfiddle.net/
+https://codesandbox.io/
+
+=== CYPRESS
+https://www.cypress.io/
+
+
