@@ -2,7 +2,7 @@ site:
   title: Testing Docs Site
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://antora.gitlab.io/demo/docs-site
-  start_page: testing-docs::cypress-edu-path-by-filip.adoc
+  start_page: testing-docs::automation-edu-path-by-filip.adoc
 output:
   dir: ./docs
 content:
