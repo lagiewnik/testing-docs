@@ -1,3 +1,6 @@
 = Now learned
 
+== begining
+
+== Finished
 video::9D73iVcwVC8[youtube,width=640,height=480,start=2764]

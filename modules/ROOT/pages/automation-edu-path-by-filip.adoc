@@ -28,6 +28,19 @@ https://www.cypress.io/
 == POSTMAN
 
 == cloned trello app
+
 trello-based application serving as a demo for API and E2E tests
 https://github.com/lagiewnik/trelloapp
+
+== egghead
+
+https://egghead.io/
+
+== Filip Hric
+
+https://filiphric.com/
+
+== cypress workshop
+
+https://github.com/cypress-io/testing-workshop-cypress
 
