@@ -4,11 +4,12 @@
 
 == Finished
 
-[cols="1,1"]
 |===
-| cypress
-| video::9D73iVcwVC8[youtube]
+| Subject | Source
+
+| cypress | video::9D73iVcwVC8[youtube]
 
 |===
+
 
 video::9D73iVcwVC8[youtube]
