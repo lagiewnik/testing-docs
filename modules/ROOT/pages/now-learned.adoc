@@ -1,7 +1,7 @@
 = Now learned
 
-== begining
-
+== During
+Typescript with cypress
 
 video::r6my4a14knE[youtube, width=640,height=480, start=0]
 
