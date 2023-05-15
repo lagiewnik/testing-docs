@@ -4,7 +4,7 @@
 Typescript with cypress
 https://filiphric.com/starting-with-typescript-in-cypress
 
-video::r6my4a14knE[youtube, width=640,height=480, start=0]
+video::r6my4a14knE[youtube, width=640,height=480, start=1036]
 
 
 == Finished
