@@ -1,18 +1,16 @@
 = Now learned
 
 == During
-Typescript with cypress
-https://filiphric.com/starting-with-typescript-in-cypress
 
-video::r6my4a14knE[youtube, width=640,height=480, start=1036]
 
 
 == Finished
 
 |===
-| Subject | Source
+| Subject | Source | Comments |
 
-| cypress | https://www.youtube.com/watch?v=9D73iVcwVC8
+| cypress | https://www.youtube.com/watch?v=9D73iVcwVC8 |
+| cypress typescript | https://www.youtube.com/watch?v=r6my4a14knE&t=1040s | https://filiphric.com/starting-with-typescript-in-cypress
 
 |===
 
