@@ -1,0 +1,9 @@
+= Testowanie full stack - książka 
+
+== linki
+
+link: https://helion.pl/ksiazki/testowanie-full-stack-praktyczny-przewodnik-dostarczania-oprogramowania-wysokiej-jakosci-gayathri-mohan,tefust.htm#format/d
+
+materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
+
+== Ręczne testy exploracyjne
