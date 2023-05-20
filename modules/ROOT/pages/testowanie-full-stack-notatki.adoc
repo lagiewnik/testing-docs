@@ -9,7 +9,30 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 == Ręczne testy exploracyjne
 
 .Pojęcia
+****
 * Funkcje (features)
 * Przepływy użytkownika (user flow)
 * Przypadek testowy (Test case)
 * Przypadek brzegowy (edge case)
+****
+
+=== Schematy stosowane w testach exploracyjnych
+****
+* Klasy równoważności
+* Analiza wartości granicznych
+* Przejścia stanu
+* Tabele decyzyjne
+* Grafy przyczynowo-skutkowe
+* Testowanie parami
+* Próbkowanie
+* Metoda odgadywania błędów
+** Brakująca walidacja danych ibrak komunikatów z tym związanych
+** Niejasne kody stanu HTTP
+** Nieobsłużone wartości brzegowe specyficzne dla domeny, typów danych, stanów itp
+** Błędy techniczne(niedostęponość serwera, długi czas odpowiedzi) nieobsłużone po stronie interfejsu usera
+** Problemy z interfejsem usera podczas przejść, odświeżania danych i poruszania  się po aplikacji(zablokowania, pozostałości)
+** Używanie zamiennie słowa kluczowego like i equals w SQL co daje inne wyniki
+** nieczyszczenie cache i niezdefiniowane czasy sesji
+** ponowne publikowanie żądania po kliknięciu Wstecz w przeglądarce
+** Brak sprawdzenia poprawności formatu pliku podczas przesyłania pliku w różnych OS
+****
