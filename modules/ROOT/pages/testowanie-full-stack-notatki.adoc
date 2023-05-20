@@ -36,3 +36,4 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 ** ponowne publikowanie żądania po kliknięciu Wstecz w przeglądarce
 ** Brak sprawdzenia poprawności formatu pliku podczas przesyłania pliku w różnych OS
 ****
+
