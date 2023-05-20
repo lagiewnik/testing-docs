@@ -7,3 +7,9 @@ link: https://helion.pl/ksiazki/testowanie-full-stack-praktyczny-przewodnik-dost
 materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 
 == Ręczne testy exploracyjne
+
+.Pojęcia
+* Funkcje (features)
+* Przepływy użytkownika (user flow)
+* Przypadek testowy (Test case)
+* Przypadek brzegowy (edge case)
