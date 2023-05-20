@@ -9,8 +9,8 @@
 |===
 | Subject | Source | Comments |
 
-| cypress | https://www.youtube.com/watch?v=9D73iVcwVC8 |
-| cypress typescript | https://www.youtube.com/watch?v=r6my4a14knE&t=1040s | https://filiphric.com/starting-with-typescript-in-cypress
+| cypress | https://www.youtube.com/watch?v=9D73iVcwVC8 | |
+| cypress typescript | https://www.youtube.com/watch?v=r6my4a14knE&t=1040s | https://filiphric.com/starting-with-typescript-in-cypress |
 
 |===
 
