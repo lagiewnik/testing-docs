@@ -37,3 +37,18 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 ** Brak sprawdzenia poprawności formatu pliku podczas przesyłania pliku w różnych OS
 ****
 
+=== Odkrywanie funkcjonalności
+****
+* Funkcjonalne przepływy pracy użytkowników
+** Pozytywne flow dla pojedynczego usera
+** Powtarzające się flow
+** Flow obejmujące wielu userów
+* Awarie i obsługa błędów
+** Awarie sieci, usług, sprzętu
+** Sprawdzanie poprawności działań usera
+* Wygląd i działanie UI 
+** Jakość UI
+** Zgodność z różnymi przeglądarkami
+* Aspekty obejmujące wiele funkcjonalności
+** Bezpieczeństwo, prywatność, możliwości audytu, uwierzytelnianie i pozostałe 30 wymagań CFR
+****
