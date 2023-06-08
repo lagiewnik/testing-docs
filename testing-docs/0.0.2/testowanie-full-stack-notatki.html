@@ -7,7 +7,7 @@
     <link rel="canonical" href="https://lagiewnik.github.io/testing-docs/testing-docs/0.0.2/testowanie-full-stack-notatki.html">
     <link rel="prev" href="automation-edu-path-by-filip.html">
     <link rel="next" href="now-learned.html">
-    <meta name="generator" content="Antora 3.1.3">
+    <meta name="generator" content="Antora 3.1.4">
     <link rel="stylesheet" href="../../_/css/site.css">
     <script>var uiRootPath = '../../_'</script>
   </head>
@@ -263,6 +263,155 @@
 <ul>
 <li>
 <p>Bezpieczeństwo, prywatność, możliwości audytu, uwierzytelnianie i pozostałe 30 wymagań CFR</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="strategia-ręcznego-testowania-eksploracyjnego"><a class="anchor" href="#strategia-ręcznego-testowania-eksploracyjnego"></a>Strategia ręcznego testowania eksploracyjnego</h3>
+<div class="sidebarblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>Zrozumienie aplikacji</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Persony użytkowników</p>
+</li>
+<li>
+<p>DZiedzina</p>
+</li>
+<li>
+<p>Priorytety biznesowe</p>
+</li>
+<li>
+<p>INfrastruktura i konfiguracja</p>
+</li>
+<li>
+<p>Architektura aplikacji</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="przypadki-testowe-aplikacji"><a class="anchor" href="#przypadki-testowe-aplikacji"></a>Przypadki testowe aplikacji</h3>
+<div class="sidebarblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>Możliwości audytu</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Logi prawidłowo wyczyszczone i w opdpowiednim czasie zapisane</p>
+</li>
+<li>
+<p>Logi aplikacji zawierają istotne transakcje</p>
+</li>
+<li>
+<p>Znaczniki czasu i sekwencja zarejestrowanych działań</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Wydajność</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Wymagania dotyczące skalowania</p>
+</li>
+<li>
+<p>Konfiguracje modułu równoważenia obciążenia</p>
+</li>
+<li>
+<p>CZas odpowiedzi wywołań API</p>
+</li>
+<li>
+<p>Zachowanie podczas ładowania aplikacji do momentu otrzymania odpowiedzi</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Bezpieczeństwo</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Konfiguracje ról i odpowiedzialności</p>
+</li>
+<li>
+<p>Wstrzykiwanie SQL w adresach URL i dane wejściowe wprowadzane za pośrednictwem UI</p>
+</li>
+<li>
+<p>Limity czasu sesji</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Sprawdzanie poprawności danych wejściowych</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Powielone elementy danych</p>
+</li>
+<li>
+<p>Puste wartości symboli alfanumerycznych</p>
+</li>
+<li>
+<p>Wartości graniczne</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Zachowanie interfejsu użytkownika</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Sprawdzanie obsługiwanych przeglądarek</p>
+</li>
+<li>
+<p>Sprawdzanie wstecz i odświeżania przeglądarek</p>
+</li>
+<li>
+<p>Wyłączenie przycisków do chwili wprowadzenia wszystkich wartości</p>
+</li>
+<li>
+<p>CZas łądowania obrazu podczas ładowania strony</p>
+</li>
+<li>
+<p>Zachowania związane z przejściami między stronami</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Obsługa błędów technicznych</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Odpowiedzi w przypadku timeoutów</p>
+</li>
+<li>
+<p>Usługa niedostępna</p>
+</li>
+<li>
+<p>nieprawidłowa konfiguracja</p>
 </li>
 </ul>
 </div>
