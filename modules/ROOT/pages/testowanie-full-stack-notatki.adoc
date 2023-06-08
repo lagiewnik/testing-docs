@@ -103,6 +103,26 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 |200 OK
 |Powodzenie requestów GET, PUT, POST
 
+|201 Created
+|Wskazuje na utworzenie nowego obiektu
+
+|400 Bad Request
+|Nieprawidłowy format żądania
+
+|401 Unauthorized
+|Brak wymaganych poświadczeń
+
+|403 Forbidden
+|z jakiegoś powodu nie ma dostępu do żądanej strony/zasobu
+
+|404 Not found
+|żądany zasób niedostępny
+
+|500 Internal Server Error
+|żądanie prawidłowe, ale serwer nie może go obsłużyć, prawdopodobnie z powodu wewnętrznych błędów
+
+|503 Service Unavailable
+|Serwer niedostępny
 
 
 |===
