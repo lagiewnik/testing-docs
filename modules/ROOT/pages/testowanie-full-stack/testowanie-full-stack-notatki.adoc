@@ -126,3 +126,17 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 
 
 |===
+
+=== Narzędzia
+****
+* Postman
+Narzędzie do testów interfejsów API.
+* WireMock
+Narzędzie do tworzenia i modyfikacji stubów/makiet/zaślepek
+* Statystyki używania przeglądarek
+https://gs.statcounter.com/
+* Bug Magnet
+Plugin przeglądarek służący do wypełniania pól predefiniowanymi wartościami różnych typów np. maile, telefony, nr kont itd
+https://bugmagnet.org/
+* DevTools przeglądarek
+****
