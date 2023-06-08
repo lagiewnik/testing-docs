@@ -93,3 +93,16 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 ** Usługa niedostępna
 ** nieprawidłowa konfiguracja
 ****
+
+=== Kody odpowiedzi HTTP
+
+[cols="1,1"]
+|===
+|Kod odpowiedzi | Znaczenie
+
+|200 OK
+|Powodzenie requestów GET, PUT, POST
+
+
+
+|===
