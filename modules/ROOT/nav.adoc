@@ -2,7 +2,7 @@
 ** :xref:automation-edu-path-by-filip.adoc[]
 
 * TESTING
-** :xref:testowanie-full-stack-notatki.adoc[]
+** :xref:testowanie-full-stack/testowanie-full-stack-notatki.adoc[]
 
 * Now Learned
 ** :xref:now-learned.adoc[]
