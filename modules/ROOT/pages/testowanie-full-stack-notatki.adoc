@@ -52,3 +52,44 @@ materiały ftp: https://helion.pl/pobierz-przyklady/tefust/
 * Aspekty obejmujące wiele funkcjonalności
 ** Bezpieczeństwo, prywatność, możliwości audytu, uwierzytelnianie i pozostałe 30 wymagań CFR
 ****
+
+=== Strategia ręcznego testowania eksploracyjnego
+****
+* Zrozumienie aplikacji
+** Persony użytkowników
+** DZiedzina
+** Priorytety biznesowe
+** INfrastruktura i konfiguracja
+** Architektura aplikacji
+****
+
+=== Przypadki testowe aplikacji
+****
+* Możliwości audytu
+** Logi prawidłowo wyczyszczone i w opdpowiednim czasie zapisane
+** Logi aplikacji zawierają istotne transakcje
+** Znaczniki czasu i sekwencja zarejestrowanych działań
+* Wydajność
+** Wymagania dotyczące skalowania 
+** Konfiguracje modułu równoważenia obciążenia
+** CZas odpowiedzi wywołań API
+** Zachowanie podczas ładowania aplikacji do momentu otrzymania odpowiedzi
+* Bezpieczeństwo
+** Konfiguracje ról i odpowiedzialności
+** Wstrzykiwanie SQL w adresach URL i dane wejściowe wprowadzane za pośrednictwem UI
+** Limity czasu sesji
+* Sprawdzanie poprawności danych wejściowych
+** Powielone elementy danych
+** Puste wartości symboli alfanumerycznych
+** Wartości graniczne
+* Zachowanie interfejsu użytkownika
+** Sprawdzanie obsługiwanych przeglądarek
+** Sprawdzanie wstecz i odświeżania przeglądarek
+** Wyłączenie przycisków do chwili wprowadzenia wszystkich wartości
+** CZas łądowania obrazu podczas ładowania strony
+** Zachowania związane z przejściami między stronami
+* Obsługa błędów technicznych
+** Odpowiedzi w przypadku timeoutów
+** Usługa niedostępna
+** nieprawidłowa konfiguracja
+****
