@@ -1,0 +1,134 @@
+== Ręczne testy exploracyjne
+
+.Pojęcia
+****
+* Funkcje (features)
+* Przepływy użytkownika (user flow)
+* Przypadek testowy (Test case)
+* Przypadek brzegowy (edge case)
+****
+
+=== Schematy stosowane w testach exploracyjnych
+****
+* Klasy równoważności
+* Analiza wartości granicznych
+* Przejścia stanu
+* Tabele decyzyjne
+* Grafy przyczynowo-skutkowe
+* Testowanie parami
+* Próbkowanie
+* Metoda odgadywania błędów
+** Brakująca walidacja danych ibrak komunikatów z tym związanych
+** Niejasne kody stanu HTTP
+** Nieobsłużone wartości brzegowe specyficzne dla domeny, typów danych, stanów itp
+** Błędy techniczne(niedostęponość serwera, długi czas odpowiedzi) nieobsłużone po stronie interfejsu usera
+** Problemy z interfejsem usera podczas przejść, odświeżania danych i poruszania  się po aplikacji(zablokowania, pozostałości)
+** Używanie zamiennie słowa kluczowego like i equals w SQL co daje inne wyniki
+** nieczyszczenie cache i niezdefiniowane czasy sesji
+** ponowne publikowanie żądania po kliknięciu Wstecz w przeglądarce
+** Brak sprawdzenia poprawności formatu pliku podczas przesyłania pliku w różnych OS
+****
+
+=== Odkrywanie funkcjonalności
+****
+* Funkcjonalne przepływy pracy użytkowników
+** Pozytywne flow dla pojedynczego usera
+** Powtarzające się flow
+** Flow obejmujące wielu userów
+* Awarie i obsługa błędów
+** Awarie sieci, usług, sprzętu
+** Sprawdzanie poprawności działań usera
+* Wygląd i działanie UI 
+** Jakość UI
+** Zgodność z różnymi przeglądarkami
+* Aspekty obejmujące wiele funkcjonalności
+** Bezpieczeństwo, prywatność, możliwości audytu, uwierzytelnianie i pozostałe 30 wymagań CFR
+****
+
+=== Strategia ręcznego testowania eksploracyjnego
+****
+* Zrozumienie aplikacji
+** Persony użytkowników
+** DZiedzina
+** Priorytety biznesowe
+** INfrastruktura i konfiguracja
+** Architektura aplikacji
+****
+
+=== Przypadki testowe aplikacji
+****
+* Możliwości audytu
+** Logi prawidłowo wyczyszczone i w opdpowiednim czasie zapisane
+** Logi aplikacji zawierają istotne transakcje
+** Znaczniki czasu i sekwencja zarejestrowanych działań
+* Wydajność
+** Wymagania dotyczące skalowania 
+** Konfiguracje modułu równoważenia obciążenia
+** CZas odpowiedzi wywołań API
+** Zachowanie podczas ładowania aplikacji do momentu otrzymania odpowiedzi
+* Bezpieczeństwo
+** Konfiguracje ról i odpowiedzialności
+** Wstrzykiwanie SQL w adresach URL i dane wejściowe wprowadzane za pośrednictwem UI
+** Limity czasu sesji
+* Sprawdzanie poprawności danych wejściowych
+** Powielone elementy danych
+** Puste wartości symboli alfanumerycznych
+** Wartości graniczne
+* Zachowanie interfejsu użytkownika
+** Sprawdzanie obsługiwanych przeglądarek
+** Sprawdzanie wstecz i odświeżania przeglądarek
+** Wyłączenie przycisków do chwili wprowadzenia wszystkich wartości
+** CZas łądowania obrazu podczas ładowania strony
+** Zachowania związane z przejściami między stronami
+* Obsługa błędów technicznych
+** Odpowiedzi w przypadku timeoutów
+** Usługa niedostępna
+** nieprawidłowa konfiguracja
+****
+
+=== Kody odpowiedzi HTTP
+
+[cols="1,1"]
+|===
+|Kod odpowiedzi | Znaczenie
+
+|200 OK
+|Powodzenie requestów GET, PUT, POST
+
+|201 Created
+|Wskazuje na utworzenie nowego obiektu
+
+|400 Bad Request
+|Nieprawidłowy format żądania
+
+|401 Unauthorized
+|Brak wymaganych poświadczeń
+
+|403 Forbidden
+|z jakiegoś powodu nie ma dostępu do żądanej strony/zasobu
+
+|404 Not found
+|żądany zasób niedostępny
+
+|500 Internal Server Error
+|żądanie prawidłowe, ale serwer nie może go obsłużyć, prawdopodobnie z powodu wewnętrznych błędów
+
+|503 Service Unavailable
+|Serwer niedostępny
+
+
+|===
+
+=== Narzędzia
+****
+* Postman
+- Narzędzie do testów interfejsów API.
+* WireMock
+- Narzędzie do tworzenia i modyfikacji stubów/makiet/zaślepek
+* Statystyki używania przeglądarek
+https://gs.statcounter.com/
+* Bug Magnet
+- Plugin przeglądarek służący do wypełniania pól predefiniowanymi wartościami różnych typów np. maile, telefony, nr kont itd
+https://bugmagnet.org/
+* DevTools przeglądarek
+****
