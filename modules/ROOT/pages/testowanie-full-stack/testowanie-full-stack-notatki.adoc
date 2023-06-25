@@ -1,5 +1,7 @@
 = Testowanie full stack - książka 
 
+include::./include/linki.adoc[]
+
 == linki
 
 link: https://helion.pl/ksiazki/testowanie-full-stack-praktyczny-przewodnik-dostarczania-oprogramowania-wysokiej-jakosci-gayathri-mohan,tefust.htm#format/d
