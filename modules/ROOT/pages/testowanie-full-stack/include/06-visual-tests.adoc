@@ -1,0 +1,48 @@
+== Testy wizualne
+
+[cols="1a"]
+|===
+| Testowanie frontendu shift-left
+
+[cols="1,1,1,1"]
+!===
+! Podczas programowania ! W potoku CI ! Testowanie historyjek użytkownika ! Testowanie wydania
+
+! Testy jednostkowe +
++ integracyjne +
++ migawkowe +
++ dostępności +
++ wydajności frontendu(dla komponentów i stron)
+! Testy jednostkowe +
++ integracyjne +
++ migawkowe +
++ dostępności
+! Testowanie ręczne dla wybranych przeglądarek i urządzeń
+! Warsztaty polowań na błędy  z wykorzystaniem różnych przeglądarek i urządzeń
+
+! Statyczna analiza kodu UI pod kątem zgodności pomiędzy przeglądarkami
+! Testy funkcjonalne +
++ wizualne +
++ zgodności z wieloma przeglądarkami +
++ dostępności +
++ wydajności frontendu
+!
+!
+
+!===
+
+| Ścieżka do produkcji ==>
+
+|===
+
+
+=== Narzędzia z ćwiczeń praktycznych
+****
+* BackstopJS
+- Narzędzie do testów interfejsów API.
+
+****
+
+
+
+

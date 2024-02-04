@@ -2,4 +2,6 @@
 
 include::./include/linki.adoc[]
 
-include::./include/01-manual-exploring-tests.adoc[]
+include::./include/02-manual-exploring-tests.adoc[]
+
+include::./include/06-visual-tests.adoc[]
